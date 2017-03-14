@@ -3,3 +3,15 @@
 </h1>
 <courses></courses>
 <authors></authors>
+
+<div>
+    <p>
+        <a routerLink="/courses"  >Course</a> |
+        <a routerLink="/authors" >Author</a>
+        <!-- <a [routerLink]="['/courses']">Course</a>
+        <a [routerLink]="['/authors']">Author</a> -->
+    </p>
+    <div>
+        <router-outlet></router-outlet>
+    </div>    
+</div>
